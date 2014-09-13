@@ -2,6 +2,24 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
+/*
+good progress. keep working at it.
+
+use the border-radius property to get the rounded corners look.
+(border-top-left-radius, border-top-right-radius, etc.)
+
+this will remove the margin that is around your whole page. you can
+see it around the header. 
+
+body{
+	margin:0px;
+}
+
+Any time you see an element with weird padding,
+or margin, you can use chrome tools, select the element, and then use the
+box model tool in the styles panel
+
+*/
 
 header {
 	width: 100%;
@@ -27,6 +45,7 @@ header {
 .sectionHeader {
 	width: 100%;
 	padding: 3px;
+	/*i would bump this up*/
 }
 
 .sectionBody {
